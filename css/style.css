@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+}
+
+#particles-container {
+	background: url("../img/welcome.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	cursor: default;
+	overflow: hidden;
+	position: absolute;
+}
+
+.particles-txt-container {
+	width: 375px;
+	color: white;
+	height: 100%;
+	position: absolute;
+	display: table;
+	text-align: center;
+	font-weight: bolder;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+.particles-nav {
+	display: table-cell;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.particles-link {
+	color: inherit;
+}
+
+.particles-link:hover {
+	text-decoration: none;
+}
+
+.particles-txt {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.particles-txt > h1 {
+	font-size: 72px;
+}
+
+.particles-nav-container th {
+	width: 100px;
+	font-size: 20px;
+}
+
+.particles-nav-container {
+	left: 12%;
+	position: relative;
+}
+
+#page-top {
+	background-color: #08154a;
+}
+
+.page-container {
+	height: fit-content;
+	color: white;
+}
+
+.page {
+	font-size: 50px;
+	position: relative;
+	display: block;
+	top: 5%;
+}
+
+.page-header {
+	display: block;
+	position: relative;
+	border-bottom: 1px solid #d51635;
+	text-align: center;
+}
+
+#about-container {
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+}
+#contain-projects {
+	padding-left: 3%;
+	padding-right: 3%;
+	margin: 20px;
+}
+
+#table-projects {
+	width: 100%;
+	padding: 5px;
+	height: 60vh;
+}
+
+#table-projects tr {
+	vertical-align: top;
+}
+
+#table-projects td {
+	margin: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+.project {
+	width: 300px;
+	margin: 20px;
+	height: 150px;
+	display: block;
+	border: 3px #d51635 solid;
+	background: white;
+	color: black;
+	font-size: 30px;
+	text-align: left;
+}
+
+.contain-img {
+	display: inline-block;
+	margin: 15px;
+	vertical-align: middle;
+}
+
+.contain-img > img {
+	height: 300px;
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.contain-about-txt {
+	position: relative;
+	display: inline-block;
+	width: 60%;
+	padding: 20px;
+	vertical-align: middle;
+	margin-left: 20px;
+	text-align: left;
+	background: white;
+	color: black;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 60px;
+}
+
+
+.card{
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+}
+
+.card *{
+	margin-left: 7px;
+}
+.card-columns {
+	column-count: 3;
+}
+
+.card-languages{
+	font-size: inherit;
+}
+
+.project-card-container{
+	height: 100%;
+	padding: 20px;
+}
+.project-card{
+	background: white;
+	color: black;
+	border: 1px solid #d51635;
+	text-align: left;
+	margin: 3px;
+	margin-bottom: 10px;
+}
+
+.card-body{
+	font-size: 15px;
+}
+
+.card-links{
+	margin-bottom: 10px;
+}
+
+.card-contain-github, .card-contain-live{
+	/* margin: 3px; */
+	font-size: 20px;
+	font-weight: 800;
+	display: inline-block;
+}
+
+#contact-container{
+	padding-left: 3%;
+	padding-right: 3%;
+	background: white;
+	margin: 40px 0 40px 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+#contact-container > div{
+	display: inline-block;
+	padding:0;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#contact-container img{
+	height: 80%;
+	margin: 3%;
+}
+
+.contact-link{
+	text-decoration: none !important;
+}
+
+#contact-container img:hover{
+	border: 2px solid #d51635;
+	opacity: 0.8;
+}
+
+#github-container > div, #resume-container > div{
+	display: block;
+	width: 100%;
+	
+}
+
+#resume-container, #github-container{
+	width: 49%;
+	height: 300px;
+}
+
+#phone-email-container{
+	width: 100%;
+}
+
+#phone-email-container > p{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.img-contain{
+	text-align: center;
+	height: 80%;
+}
+
+.txt-contain{
+	text-align: center;
+	font-size: 30px;
+}
+
+@media (max-width: 768px) {
+	.contain-about-txt {
+		margin: 20px;
+	}
+
+	.contain-about-txt,
+	.contain-img {
+		width: 86vw;
+	}
+	.card-columns {
+		column-count: 2;
+	}
+}
+
+@media (max-width: 480px) {
+	.particles-txt-container {
+		margin: 0;
+	}
+	.card-columns {
+		column-count: 1;
+	}
+}
