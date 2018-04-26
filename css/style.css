@@ -3,7 +3,7 @@ body {
 }
 
 #particles-container {
-	background: url('../img/welcome.jpg');
+	background: url("../img/welcome.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
@@ -14,6 +14,7 @@ body {
 }
 
 .particles-txt-container {
+	width: 375px;
 	color: white;
 	height: 100%;
 	position: absolute;
@@ -26,6 +27,21 @@ body {
 	overflow: hidden;
 }
 
+.particles-nav {
+	display: table-cell;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.particles-link {
+	color: inherit;
+}
+
+.particles-link:hover {
+	text-decoration: none;
+}
+
 .particles-txt {
 	vertical-align: middle;
 	display: table-cell;
@@ -35,8 +51,87 @@ body {
 	font-size: 72px;
 }
 
+.particles-nav-container th {
+	width: 100px;
+	font-size: 20px;
+}
+
+.particles-nav-container {
+	left: 12%;
+	position: relative;
+}
+
+#page-top {
+	background-color: #08154a;
+}
+
+.page-container {
+	height: fit-content;
+	color: white;
+}
+
+.page {
+	font-size: 50px;
+	position: relative;
+	display: block;
+	top: 5%;
+}
+
+.page-header {
+	display: block;
+	position: relative;
+	border-bottom: 1px solid #d51635;
+	text-align: center;
+}
+
+#about-container {
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+}
+
+.contain-img {
+	display: inline-block;
+	margin: 15px;
+	vertical-align: middle;
+}
+
+.contain-img > img {
+	height: 300px;
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.contain-about-txt {
+	position: relative;
+	display: inline-block;
+	width: 60%;
+	padding: 20px;
+	vertical-align: middle;
+    margin-left: 20px;
+    text-align: left;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 60px;
+}
+
 @media (max-width: 480px) {
 	.particles-txt-container {
-        margin-left: 5em;
-    }
+		margin: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.contain-about-txt {
+		margin: 20px;
+	}
+
+	.contain-about-txt,
+	.contain-img {
+		width: 86vw;
+	}
 }
