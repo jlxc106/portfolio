@@ -1,0 +1,52 @@
+{
+	"projects": [
+		{
+			"name": "Batsu",
+			"languages": "Javascript, React/Redux, PHP, MYSQL, NodeJS/Express",
+			"description":
+				"Web application designed to create & manage events and keep your friends accountable for meet-ups.",
+			"github": "https://github.com/jlxc106/batsu_app",
+			"live_page": "http://www.batsu.io"
+		},
+		{
+			"name": "Film Funnel",
+			"languages": "JavaScript/JQuery",
+			"description":
+				"Fun creation from a hackathon that demonstrates our mastery of API's.",
+			"github": "https://github.com/jlxc106/C5.17_hackathon2",
+			"live_page": "https://jlxc106.github.io/C5.17_hackathon2/"
+        },
+        {
+			"name": "NBA Playoffs",
+			"languages": "React, Javascript",
+			"description":
+				"Fun project using NBA's official API to keep track of NBA playoffs.",
+			"github": "https://github.com/jlxc106/nba_playoffs",
+			"live_page": null
+        },
+        {
+			"name": "Calculator",
+			"languages": "Javascript/jQuery",
+			"description":
+				"Simple calculator app that demonstrates solid understanding of logic",
+			"github": "https://github.com/jlxc106/calculator",
+			"live_page": "https://jlxc106.github.io/calculator/"
+        },
+        {
+			"name": "Othello/Reversi",
+			"languages": "Javascript/jQuery",
+			"description":
+				"Fun game of <a href='https://en.wikipedia.org/wiki/Reversi' target='_blank'>Othello/Reversi</a> from a Hackathon.",
+			"github": "https://github.com/t1m1t/c5.17_hackathon/",
+			"live_page": "https://t1m1t.github.io/c5.17_hackathon/"
+        },        
+        {
+			"name": "Student Grade Table",
+			"languages": "Javascript/JQuery",
+			"description":
+				"Introduction to jQuery's AJAX. Web application containing table of student grades.",
+			"github": "https://github.com/jlxc106/SGT",
+			"live_page": null
+		}
+	]
+}

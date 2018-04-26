@@ -89,6 +89,39 @@ body {
 	padding-right: 3%;
 	text-align: center;
 }
+#contain-projects {
+	padding-left: 3%;
+	padding-right: 3%;
+	height: 80vh;
+	margin: 20px;
+}
+
+#table-projects {
+	width: 100%;
+	padding: 5px;
+	height: 60vh;
+}
+
+#table-projects tr {
+	vertical-align: top;
+}
+
+#table-projects td {
+	margin: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+.project {
+	width: 300px;
+	margin: 20px;
+	height: 150px;
+	display: block;
+	border: 3px #d51635 solid;
+	background: white;
+	color: black;
+	font-size: 30px;
+	text-align: left;
+}
 
 .contain-img {
 	display: inline-block;
@@ -110,8 +143,8 @@ body {
 	width: 60%;
 	padding: 20px;
 	vertical-align: middle;
-    margin-left: 20px;
-    text-align: left;
+	margin-left: 20px;
+	text-align: left;
 }
 
 h1 {
@@ -119,10 +152,45 @@ h1 {
 	font-size: 60px;
 }
 
-@media (max-width: 480px) {
-	.particles-txt-container {
-		margin: 0;
-	}
+
+.card{
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+}
+
+.card *{
+	margin-left: 7px;
+}
+.card-columns {
+	column-count: 3;
+}
+
+.card-languages{
+	font-size: inherit;
+}
+
+.project-card-container{
+	height: 100%;
+	padding: 20px;
+}
+.project-card{
+	background: white;
+	color: black;
+	border: 1px solid red;
+	text-align: left;
+	margin: 3px;
+}
+
+.card-body{
+	font-size: 15px;
+}
+
+.card-contain-github, .card-contain-live{
+	/* margin: 3px; */
+	font-size: 20px;
+	font-weight: 800;
+	display: inline-block;
 }
 
 @media (max-width: 768px) {
@@ -133,5 +201,17 @@ h1 {
 	.contain-about-txt,
 	.contain-img {
 		width: 86vw;
+	}
+	.card-columns {
+		column-count: 2;
+	}
+}
+
+@media (max-width: 480px) {
+	.particles-txt-container {
+		margin: 0;
+	}
+	.card-columns {
+		column-count: 1;
 	}
 }
