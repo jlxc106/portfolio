@@ -47,6 +47,14 @@
 				"Introduction to jQuery's AJAX. Web application containing table of student grades.",
 			"github": "https://github.com/jlxc106/SGT",
 			"live_page": null
+		},
+		{
+			"name": "Project Euler",
+			"languages": "Python/C++",
+			"description":
+				"Array of brain teasers with varying difficulty",
+			"github": "https://github.com/jlxc106/ProjectEuler",
+			"live_page": null
 		}
 	]
 }
