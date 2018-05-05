@@ -440,6 +440,11 @@ body {
   text-shadow: 1px 1px white;
 }
 
+.banner-text:hover{
+  color: #F05F40 !important;
+  text-shadow: 1px 1px #F05F40;
+}
+
 .github_link{
   margin-left: 10px;
 }
