@@ -17,6 +17,14 @@
 			"live_page": "https://calm-anchorage-32075.herokuapp.com/"
 		},
 		{
+			"name": "Othello/Reversi",
+			"languages": "Javascript, MongoDB, Express/NodeJS, React, Socket.io",
+			"description":
+				"Fun game of <a href='https://en.wikipedia.org/wiki/Reversi' target='_blank'>Othello/Reversi</a>. Implemented a React frontend and NodeJS backend with socket.io for realtime communication",
+			"github": "https://github.com/jlxc106/c5.17_hackathon/",
+			"live_page": "http://1v1me.io"
+        },
+		{
 			"name": "Film Funnel",
 			"languages": "JavaScript/JQuery",
 			"description":
@@ -39,14 +47,6 @@
 				"Simple calculator app that demonstrates solid understanding of logic",
 			"github": "https://github.com/jlxc106/calculator",
 			"live_page": "https://jlxc106.github.io/calculator/"
-        },
-        {
-			"name": "Othello/Reversi",
-			"languages": "Javascript/jQuery",
-			"description":
-				"Fun game of <a href='https://en.wikipedia.org/wiki/Reversi' target='_blank'>Othello/Reversi</a> from a Hackathon.",
-			"github": "https://github.com/t1m1t/c5.17_hackathon/",
-			"live_page": "https://t1m1t.github.io/c5.17_hackathon/"
         },        
         {
 			"name": "Student Grade Table",
