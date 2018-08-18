@@ -14,7 +14,14 @@
 			"description":
 				"Web application displaying graphs/table of apache logs of portfolio server",
 			"github": "https://github.com/jlxc106/site_analytics",
-			"live_page": "https://calm-anchorage-32075.herokuapp.com/"
+			"live_page": "https://sitelogs.herokuapp.com/"
+		},
+		{
+			"name":"Ecommerce",
+			"languages":"Javascript, Node.js Express, MongoDB, Materialize.css, Bcrypt, Stripe API, React/Redux, Passport.js",
+			"description":"E-commerce web application that utilizes stripe API to handle transactions.",
+			"github":"https://github.com/jlxc106/ecommerce",
+			"live_page":""
 		},
 		{
 			"name": "Othello/Reversi",
