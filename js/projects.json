@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "Site Logs",
-			"languages": "Javascript, LAMP, CronJob, PHP, MongoDB, NodeJS/Express, Shell Script",
+			"languages": "Javascript, LAMP, CronJob, PHP, MongoDB, NodeJS/Express, Shell Script, Materialize.css",
 			"description":
 				"Web application displaying graphs/table of apache logs of portfolio server",
 			"github": "https://github.com/jlxc106/site_analytics",
@@ -21,7 +21,7 @@
 			"languages":"Javascript, Node.js Express, MongoDB, Materialize.css, Bcrypt, Stripe API, React/Redux, Passport.js",
 			"description":"E-commerce web application that utilizes stripe API to handle transactions.",
 			"github":"https://github.com/jlxc106/ecommerce",
-			"live_page":""
+			"live_page":"https://store.jayclim.com"
 		},
 		{
 			"name": "Othello/Reversi",
